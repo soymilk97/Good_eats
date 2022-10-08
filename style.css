@@ -1,0 +1,334 @@
+html {
+    background-color: rgba(122, 191, 191, 0.5);
+  }
+
+header, main, footer {
+    padding: 10px;
+  }
+
+header img {
+    width: 100%;
+    height: auto;
+  }
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    position: relative;
+  }
+main img {
+    width: 100%;
+  }
+
+label {
+    cursor: pointer;
+    display: inline-block;
+    padding: 11px;
+    position: relative;
+    user-select: none;
+  }
+
+nav {
+    width: 420px;
+    height: 125px;
+    margin-top: -30px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+    position: relative;
+    top: 0;
+    z-index: 1;
+    font-size: 15px;
+  }
+  
+nav h2 {
+    height: 1px;
+    visibility: hidden;
+  }
+
+  nav a:hover, nav input:hover {
+    background-color: #eb5428;
+    color: #ffffff;
+  }
+
+nav a {
+    font-family: "Bebas Neue", sans-serif;
+  }
+  
+nav li a {
+    display: block;
+    padding: 20px 20px;
+    margin-bottom: 2px;
+    text-decoration: none;
+    color: #eb5428;
+  }
+
+nav span {
+    font-family: "Bebas Neue", cursive;
+  }
+
+  nav label span {
+    display: block;
+    position: relative;
+    left: 73px;
+    bottom: -80px;
+    transition: background-color 0.2s ease-out;
+  }
+
+nav label span:before, nav label span:after {
+    position: absolute;
+    display: block;
+    height: 100%;
+    transition: all 0.2s ease-out;
+    width: 100%;
+  }
+
+nav label span:before {
+    top: 5px;
+  }
+
+nav label span:after {
+    top: -5px;
+  }
+
+nav input {
+    display: none;
+  }
+
+nav ul {
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0;
+    transition: max-height 0.2s ease-out;
+    padding: 0;
+    max-height: 0;
+  }
+
+aside {
+    background-color: #7abfbf;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    position: relative;
+    top: 25px;
+    display: grid;
+  }
+
+aside h2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  
+aside h3, aside p {
+    padding: 0;
+    margin: 0;
+  }
+  
+aside img {
+    width: 75%;
+    height: 75%;
+  }
+
+menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -60px;
+    padding-top: 15px;
+  }
+  
+menu li {
+    color: #eb5428;
+    font-size: 20px;
+    list-style: none;
+    font-family: "Bebas Neue", sans-serif;
+  } 
+  
+h1 {
+    text-align: left;
+    margin-left: 15px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: -75px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 175px;
+}
+
+h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+  }
+
+body {
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    color: #000000;
+    width: 400px;
+    padding-top: 1px;
+  }
+
+nav {
+    width: 768px;
+}
+
+ol {
+    padding: 15px;
+  }
+  
+ol li {
+    padding-bottom: 15px;
+  }
+
+li {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+  }
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+  } 
+
+dl {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+dt {
+    flex-basis: 30%;
+    padding: 2px 4px;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+dd {
+    flex-basis: 60%;
+    flex-grow: 1;
+    margin: 0;
+    padding: 2px 4px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+  }
+
+
+  
+footer {
+    font-family: "Bebas Neue", sans-seri;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+footer h2,
+footer h3 {
+    visibility: hidden;
+  }
+  
+footer img {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+  }
+
+figcaption {
+    font-family: "Bebas Neue", sans-seri;
+    font-size: 20px;
+    color: #eb5428;
+    position: relative;
+    align-content: flex-end;
+  }
+
+.icon-tabler-tools-kitchen {
+    top: 33px;
+    background-color: #eb5428;
+    position: absolute;
+  }
+
+.icon-tabler-download {
+    position: relative;
+    bottom: 20px;
+    right: 35px;
+  }
+  
+.icon-tabler-share {
+    position: relative;
+    bottom: 20px;
+    right: 40px;
+  }
+  
+.icon-tabler-printer {
+    position: relative;
+    bottom: 20px;
+    right: 40px;
+  }
+  
+.icon-tabler-file-symlink {
+    position: relative;
+    bottom: 20px;
+    right: 40px;
+  }
+
+@media screen and (min-width: 768px) {
+    body {
+        width: 750px;
+        transition: width 0.2s;
+        margin-top: 50px;
+    }
+  
+
+    menu {
+        justify-content: space-around;
+        position: absolute;
+        top: 290px;
+        background-color: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(10px);
+        width: 735px;
+        padding: 30px 10px 15px 15px;
+    }
+  
+    .tacos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+            "intro intro intro intro"
+            "details details details details"
+            "ingredients directions directions directions"
+            "inrgedients directions directions directions";
+    }
+  
+    dl {
+        display: inline;
+    }
+    dt {
+        flex-basis: 40%;
+        padding: 2px 4px;
+        text-align: center;
+        left: 150px;
+    }
+    dd {
+        flex-basis: 50%;
+        flex-grow: 1;
+        margin: 0;
+        padding: 2px 4px;
+        text-align: center;
+        right: 150px;
+    }
+    #social {
+        text-align: left;    }
+  
+    #goodEats {
+        text-align: left;
+    }
+    .hover-menu:hover {
+      color: #ffffff;
+      background-color: #eb5428;
+    }
+  }
